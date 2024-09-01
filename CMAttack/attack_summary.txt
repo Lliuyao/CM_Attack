@@ -1,0 +1,22 @@
+Attack(
+  (search_method): GreedyWordSwapWIR(
+    (wir_method):  weighted-saliency
+  )
+  (goal_function):  UntargetedClassification
+  (transformation):  ChineseWordSwapHowNet
+  (constraints): 
+    (0): MyMaxModificationRateConstraint(
+        (max_rate):  0.2
+        (min_threshold):  3
+      )
+    (1): RepeatModification
+    (2): StopwordModification
+  (is_black_box):  True
+) 
+
+
+
+
+
+
+
